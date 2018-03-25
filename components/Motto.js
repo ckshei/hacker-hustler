@@ -1,13 +1,12 @@
+import Checkbox from './Checkbox';
+
 const Motto = () => (
     <div>
-        <p>GET</p>
-        <p><span>SH</span>IT</p>
-        <p>DONE</p>
+        <Checkbox text="GET"/>
+        <Checkbox text="SHIT"/>
+        <Checkbox text="DONE"/>
         <style jsx>
         {`
-            span {
-                opacity: 0.5;
-            }
         `}  
         </style>
     </div>

@@ -7,7 +7,7 @@ const Layout = (props) => (
         {props.children}
         <style jsx global>
         {`
-            h1 {
+            h1, h2 {
                 text-align: center;
             }
 
@@ -17,7 +17,7 @@ const Layout = (props) => (
             }
 
             body {
-                background-color: #101D2F;
+                background-color: #191919;
             }
         `}  
         </style>

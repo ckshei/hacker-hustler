@@ -6,8 +6,8 @@ const Index = () => (
     <div>
         <Layout />
         <h1>HackerHustler</h1>
-        <p>a community of doers, tinkerers, builders who 
-        </p>
+
+        <h2>Join a community of creators, designers, builders, and</h2>
         <Motto/>
     </div>
 )
